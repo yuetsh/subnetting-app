@@ -6,8 +6,8 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "netmask",
-    "version": "0.0.1"
+    "productName": "子网划分工具箱",
+    "version": "0.1.0"
   },
   "tauri": {
     "allowlist": {
