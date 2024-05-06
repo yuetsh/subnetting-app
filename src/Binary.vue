@@ -74,7 +74,6 @@ import {
   NFlex,
 } from "naive-ui"
 import { reactive } from "vue"
-import {} from "ip-net"
 
 const ip = reactive({
   one: 192,
