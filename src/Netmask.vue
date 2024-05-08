@@ -69,8 +69,8 @@ const ip = reactive({
 
 const size = ref(254)
 const label = computed(() => {
-  if (size.value < 0) return "可用地址数量：出错 总共地址数量：出错"
-  return `可用地址数量：${size.value} 总共地址数量：${size.value + 2}`
+  if (size.value < 0) return "可用地址数量：出错，总共地址数量：出错"
+  return `可用地址数量：${size.value}，总共地址数量：${size.value + 2}`
 })
 
 function calculate1() {
